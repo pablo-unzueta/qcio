@@ -325,6 +325,7 @@ class CalcType(str, Enum):
     optimization = "optimization"
     transition_state = "transition_state"
     conformer_search = "conformer_search"
+    meci_optimization = "conical"
 
     def __repr__(self) -> str:
         """Custom repr for CalcType"""
